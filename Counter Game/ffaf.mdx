@@ -1,0 +1,23 @@
+# 🔢 Counting Game Setup
+
+Wolly includes an engaging automated counting mini-game that challenges your server members to count sequentially without making mistakes or counting twice in a row.
+
+---
+
+## How It Works
+
+1. **Sequential Numbers:** Members must type the next correct number in order (starting from 1).
+2. **Anti-Double Counting:** The same user cannot send two numbers back-to-back.
+3. **Reactions & Penalties:**
+   - Correct numbers receive a ✅ reaction.
+   - Wrong numbers or double counts receive an ❌ reaction, trigger a reset to 0, and broadcast an alert embed.
+
+---
+
+## Configuration Commands
+
+Administrators can use the following slash commands to configure the counting channel:
+
+- **Link an Existing Channel:** Run `/counter channelset channel:#channel` to designate an existing text channel for the game.
+- **Auto-Create a Channel:** Run `/counter createchannel` to instantly generate a brand new `#counting` channel and link it automatically.
+- **Toggle Auto-Clear:** Run `/counter clearchannel enable:True` (or `False`) to choose whether Wolly automatically clones and clears the channel when the counter resets.
