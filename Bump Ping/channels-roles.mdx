@@ -1,0 +1,39 @@
+---
+title: "Channels & Roles"
+description: "Set up dedicated channels, ping roles, and custom reminder embeds."
+---
+
+# 📃Channels & Roles
+
+Customize where Wolly posts bump reminders, who gets pinged when the cooldown expires, and how the reminder embed looks to fit your server's style.
+
+---
+
+## 1. Setting up a Bump Channel
+
+You can choose exactly where Wolly posts the reminder embed when a bump becomes available.
+
+- **Automatic Setup:** Run `/bumpping createchannel`. Wolly will automatically create a dedicated `#bump-here` text channel and set it as your reminder destination.
+- **Manual Setup:** If you already have an existing channel (e.g., `#bot-commands`), run `/bumpping setchannel #channel` to link it.
+
+---
+
+## 2. Setting up a Ping Role
+
+Notify a specific group of members whenever it is time to bump again.
+
+- **Automatic Setup:** Run `/bumpping createrole`. Wolly will create a mentionable `👊Bump ME` role with a cyan color and assign it to the system.
+- **Manual Setup:** If you already have a role for bumpers, run `/bumpping setpingrole @role` to set it.
+
+_(Note: If no role is configured, Wolly will mention the user who performed the last bump instead)._
+
+---
+
+## 3. Customizing Embed Messages
+
+Make the reminder alerts match your server's vibe by customizing the embed text.
+
+- **Change Title:** Run `/bumpping setembedtitle title:<your_title>` to set a custom header.
+- **Change Description:** Run `/bumpping setembeddesc description:<your_text>`.
+
+> **Tip:** Use the `{time}` variable inside your description text, and Wolly will automatically swap it with the actual cooldown duration.

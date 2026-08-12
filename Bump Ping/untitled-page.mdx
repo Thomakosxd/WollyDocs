@@ -1,0 +1,43 @@
+# ⚠️ Second Reminder Feature
+
+Sometimes a bump reminder gets buried in active chat channels. Wolly includes a built-in secondary ping system that sends a follow-up alert if your server hasn't been bumped after becoming ready.
+
+---
+
+## How It Works
+
+1. **Initial Cooldown Ends:** Wolly sends the primary reminder after 2 hours.
+2. **Timer Starts:** A secondary timer begins counting down.
+3. **Follow-Up Trigger:** If no one bumps the server within the set delay, Wolly sends a second alert to your reminder channel pinging your configured role (or the last bumper).
+4. **Auto-Reset:** Once a successful `/bump` is detected, the second reminder state resets automatically.
+
+---
+
+## Enabling & Disabling
+
+The second reminder is **ON by default**. You can toggle it at any time:
+
+```text
+/bumpping secondreminder status:ON
+/bumpping secondreminder status:OFF
+```
+
+---
+
+## Customizing the Delay
+
+By default, Wolly waits **30 minutes** after the server becomes ready before triggering the second ping (2 hours \+ 30 minutes total).
+
+You can customize this delay anywhere between **1 and 1440 minutes (24 hours)**:
+
+```text
+/bumpping setsecondreminderdelay minutes:<number>
+```
+
+**Example:**
+
+If you want Wolly to ping again 15 minutes after the server is ready:
+
+```text
+/bumpping setsecondreminderdelay minutes:15
+```
