@@ -77,14 +77,6 @@
         ]
       },
       {
-        "group": "Invite Tracking",
-        "pages": [
-          "Invite Tracking/admin-management",
-          "Invite Tracking/overview",
-          "Invite Tracking/user-commands"
-        ]
-      },
-      {
         "group": "Bump Ping",
         "pages": [
           "Bump Ping/basic-setup",
@@ -92,6 +84,14 @@
           "Bump Ping/info-manage",
           "Bump Ping/live-status",
           "Bump Ping/untitled-page"
+        ]
+      },
+      {
+        "group": "Invite Tracking",
+        "pages": [
+          "Invite Tracking/admin-management",
+          "Invite Tracking/overview",
+          "Invite Tracking/user-commands"
         ]
       }
     ]
