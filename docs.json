@@ -66,7 +66,52 @@
           "icon": "discord"
         }
       ]
-    }
+    },
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index"
+        ]
+      },
+      {
+        "group": "Disboard Bumper",
+        "pages": [
+          "Bump Ping/basic-setup",
+          "Bump Ping/channels-roles",
+          "Bump Ping/untitled-page",
+          "Bump Ping/live-status",
+          "Bump Ping/info-manage"
+        ]
+      },
+      {
+        "group": "Moderation",
+        "pages": [
+          "moderation/setup",
+          "moderation/staff-tools",
+          "moderation/reports-history"
+        ]
+      },
+      {
+        "group": "Server Counters",
+        "pages": [
+          "counter/setup"
+        ]
+      },
+      {
+        "group": "Invite Tracker",
+        "pages": [
+          "invites/tracking"
+        ]
+      },
+      {
+        "group": "Info",
+        "pages": [
+          "info/privacy",
+          "info/tos"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
