@@ -71,43 +71,27 @@
       {
         "group": "Getting Started",
         "pages": [
-          "index"
+          "index",
+          "privacy",
+          "tos"
         ]
       },
       {
-        "group": "Disboard Bumper",
+        "group": "Invite Tracking",
+        "pages": [
+          "Invite Tracking/admin-management",
+          "Invite Tracking/overview",
+          "Invite Tracking/user-commands"
+        ]
+      },
+      {
+        "group": "Bump Ping",
         "pages": [
           "Bump Ping/basic-setup",
           "Bump Ping/channels-roles",
-          "Bump Ping/untitled-page",
+          "Bump Ping/info-manage",
           "Bump Ping/live-status",
-          "Bump Ping/info-manage"
-        ]
-      },
-      {
-        "group": "Moderation",
-        "pages": [
-          "moderation/setup",
-          "moderation/staff-tools"
-        ]
-      },
-      {
-        "group": "Server Counters",
-        "pages": [
-          "counter/setup"
-        ]
-      },
-      {
-        "group": "Invite Tracker",
-        "pages": [
-          "invites/tracking"
-        ]
-      },
-      {
-        "group": "Info",
-        "pages": [
-          "info/privacy",
-          "info/tos"
+          "Bump Ping/untitled-page"
         ]
       }
     ]
