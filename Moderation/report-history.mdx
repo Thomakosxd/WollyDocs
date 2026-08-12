@@ -1,0 +1,35 @@
+---
+title: "Moderation Documentation"
+description: "Complete guide for Wolly's moderation system, including setup, basic commands, actions, and case history tracking."
+---
+
+# 🛡️ Moderation Module
+
+Wolly features a robust moderation toolkit complete with database case tracking, automated logging, role hierarchy protection, and customizable report channels.
+
+---
+
+## Configuration & Setup Commands
+
+- **`/modtoggle`** _(Server Owner Only)_: Enable or disable the entire moderation system for the server.
+- **`/setreportchannel`** _(Administrator)_: Set the dedicated text channel where member reports are sent.
+
+---
+
+## Member Reports & Actions
+
+- **`/report`**: Report a misbehaving member to the server moderators.
+- **`/warn`**: Issue an official warning to a member with role hierarchy checks.
+- **`/kick`**: Kick a member from the server.
+- **`/ban`**: Permanently ban a member from the server.
+- **`/unban`**: Unban a user using their unique User ID.
+- **`/mute`**: Put a member in a temporary timeout (mute) for a specified number of minutes.
+- **`/unmute`**: Remove an active timeout from a member.
+- **`/purge`**: Bulk delete between 1 and 100 messages in a channel.
+
+---
+
+## Case & History Lookup
+
+- **`/case`**: Look up details of a specific moderation case ID.
+- **`/modhistory`**: View the last 10 moderation cases recorded for a specific member.
