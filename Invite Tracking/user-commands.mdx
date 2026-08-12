@@ -1,0 +1,53 @@
+---
+title: User Commands
+description: Check your invite stats and view the server leaderboard.
+---
+
+# 📊 User Commands
+
+Members can easily check their invite stats or view the server's top inviters using public slash commands.
+
+---
+
+## 1. Checking Invite Stats
+
+Use the `/invitetracking user` command to check invite statistics.
+
+* **Check your own stats:**
+  ```text
+  /invitetracking user
+
+```
+
+* **Check another member's stats:**
+```text
+/invitetracking user user:@member
+
+```
+
+
+
+### Displayed Metrics:
+
+* **✨ Total Invites:** Joins + Bonus
+* **✅ Still in Server:** Total - Leaves
+* **❌ Left:** Number of invited members who left
+* **📥 Joins:** Raw count of successful joins via your links
+* **🎁 Bonus:** Extra invites added by admins
+
+---
+
+## 2. Viewing the Leaderboard
+
+To display the top 10 inviters in your server, run:
+
+```text
+/invitetracking leaderboard
+
+```
+
+> **Interactive Refresh Button:** The leaderboard embed includes a **🔄 Refresh** button. Clicking it instantly updates the rankings using live data from the database.
+
+```
+
+---
