@@ -118,6 +118,12 @@
                 ]
               }
             ]
+          },
+          {
+            "group": "Counter Game",
+            "pages": [
+              "Counter Game/ffaf"
+            ]
           }
         ]
       }
