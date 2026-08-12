@@ -88,8 +88,7 @@
         "group": "Moderation",
         "pages": [
           "moderation/setup",
-          "moderation/staff-tools",
-          "moderation/reports-history"
+          "moderation/staff-tools"
         ]
       },
       {
