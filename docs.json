@@ -1,0 +1,99 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "luma",
+  "name": "Wolly",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "pages": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index"
+        ]
+      },
+      {
+        "group": "Disboard Bumper",
+        "pages": [
+          "bumpping/basic-setup",
+          "bumpping/channels-roles",
+          "bumpping/live-status",
+          "bumpping/info-manage"
+        ]
+      },
+      {
+        "group": "Moderation",
+        "pages": [
+          "moderation/setup",
+          "moderation/staff-tools",
+          "moderation/reports-history"
+        ]
+      },
+      {
+        "group": "Server Counters",
+        "pages": [
+          "counter/setup"
+        ]
+      },
+      {
+        "group": "Invite Tracker",
+        "pages": [
+          "invites/tracking"
+        ]
+      },
+      {
+        "group": "Info",
+        "pages": [
+          "info/privacy",
+          "info/tos"
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "href": "/",
+          "icon": "book-open-cover"
+        },
+        {
+          "anchor": "Support Server",
+          "href": "https://discord.gg/your-invite-link",
+          "icon": "discord"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "https://discord.gg/39GunFy577"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Invite Wolly",
+      "href": "https://discord.com/api/oauth2/authorize?client_id=YOUR_CLIENT_ID_HERE&permissions=8&scope=bot%20applications.commands"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view"
+    ]
+  },
+  "footer": {
+    "socials": {
+      "discord": "https://discord.gg/39GunFy577"
+    }
+  }
+}

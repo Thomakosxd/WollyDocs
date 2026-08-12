@@ -1,0 +1,25 @@
+---
+title: Server Counters
+description: 'Display your server statistics in real-time with voice channels.'
+---
+
+# 📊 Server Counters
+
+Want to show off how many members are in your server? Wolly's Counter module allows you to create live-updating voice channels that display your server's statistics directly at the top of your channel list.
+
+## Setting up the Counters
+
+Getting your counters running is incredibly simple. Wolly handles all the channel creation and permissions automatically.
+
+**Command:** `/counter setup`
+* **Permission Required:** `Administrator`
+* **What it does:** Automatically creates a new channel category and voice channels showing your total members, humans, and bots.
+
+## Live Updates
+
+Because Discord limits how often bots can change channel names, Wolly updates your counter channels in intervals (usually every 5-10 minutes) to ensure it stays compliant with Discord's API rules while keeping your stats fresh!
+
+## Customizing or Removing Counters
+
+* **Rename the channels:** You can manually rename the voice channels Wolly created (e.g., change "Members: 100" to "👥 Users: 100"). Wolly will only update the numbers and keep your custom emojis/text!
+* **Removing them:** If you no longer want the counters, simply delete the voice channels normally in Discord. Wolly will detect they are gone and stop updating them.

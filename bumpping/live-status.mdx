@@ -1,0 +1,28 @@
+---
+title: Live Countdown Status
+description: 'Add a live updating voice channel to track the bump timer.'
+---
+
+# ⏱️ Live Countdown Channel
+
+Want your members to see exactly when the next bump is ready, just by looking at your channel list? Wolly can create a locked Voice Channel that updates in real-time!
+
+## How to enable it
+
+Simply run the command:
+**`/bumpping statuschannel`**
+
+Wolly will automatically create a Voice Channel at the top of your server that looks like this:
+`Bump: 1h 45m 20s`
+
+When the timer hits zero, the channel will change to:
+`Bump: READY!`
+
+## Customizing the Prefix
+
+Don't like the word "Bump:"? You can easily change the prefix of the channel name.
+
+Use the command:
+**`/bumpping setstatusname <name>`**
+
+*Example:* If you type `/bumpping setstatusname Next Disboard:`, your channel will update to show: `Next Disboard: 1h 45m 20s`.

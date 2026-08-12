@@ -1,0 +1,27 @@
+---
+title: Staff Tools
+description: 'Essential moderation commands for your staff team.'
+---
+
+# 👮 Staff Commands
+
+Wolly provides a complete suite of commands for your staff to keep the server safe. Every time a staff member uses one of these commands (except purge), Wolly automatically logs it into the server's database with a unique **Case ID**.
+
+> **Hierarchy Protection:** Wolly will automatically block any staff member from muting, kicking, or banning a user who has an equal or higher role than them!
+
+## Member Management
+
+| Command | Required Permission | Description |
+| :--- | :--- | :--- |
+| `/warn <member> <reason>` | `Moderate Members` | Issues an official warning to the user. |
+| `/mute <member> <minutes> [reason]`| `Moderate Members` | Timeouts the user so they cannot chat or speak in voice for the specified minutes. |
+| `/unmute <member> [reason]` | `Moderate Members` | Removes an active timeout early. |
+| `/kick <member> [reason]` | `Kick Members` | Removes the user from the server. They can rejoin if they have a new invite. |
+| `/ban <member> [reason]` | `Ban Members` | Permanently bans the user from the server. |
+| `/unban <user_id> [reason]` | `Ban Members` | Unbans a user using their unique Discord ID. |
+
+## Chat Management
+
+**Command:** `/purge <amount>`
+* **Permission:** `Manage Messages`
+* **Description:** Instantly deletes between 1 and 100 messages in the channel where the command is used. Perfect for cleaning up spam!
