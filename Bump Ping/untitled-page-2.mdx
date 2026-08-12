@@ -1,0 +1,26 @@
+# Basic Setup
+
+Wolly is designed to be straightforward and quick to set up. If you just want the essentials, you can get everything running without spending time on complex configurations.
+
+---
+
+## Out of the box experience
+
+The moment you invite Wolly to your server, the Bumper module is ready to track Disboard activity automatically!
+
+Here is how the default behavior works:
+
+1. **A member types `/bump`** using the Disboard bot.
+2. **Wolly detects the successful bump** confirmation in chat.
+3. **Wolly starts a 2-hour timer** in the background and posts a confirmation message mentioning when the next bump is available.
+4. **When the 2 hours are up**, Wolly sends a reminder embed directly to your configured reminder channel, mentioning your designated ping role (or the last bumper)\[cite: 1\].
+5. **If 30 minutes pass** after the server becomes ready and no one bumps, Wolly triggers a **Second Reminder** in the channel to keep your growth on track\[cite: 1\].
+
+---
+
+## Recommended Quick Commands
+
+If you want to customize where alerts go, you only need to run two quick commands:
+
+- `/bumpping createchannel` – Creates a dedicated `#bump-here` text channel automatically\[cite: 1\].
+- `/bumpping createrole` – Creates and assigns a mentionable `👊Bump ME` role for reminders\[cite: 1\].
