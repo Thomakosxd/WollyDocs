@@ -97,6 +97,27 @@
               "Invite Tracking/overview",
               "Invite Tracking/user-commands"
             ]
+          },
+          {
+            "group": "Fun",
+            "pages": [
+              "Fun/untitled-page",
+              {
+                "group": "Commands",
+                "pages": [
+                  "Fun/Commands/untitled-page-10",
+                  "Fun/Commands/untitled-page-2",
+                  "Fun/Commands/untitled-page-3",
+                  "Fun/Commands/untitled-page-4",
+                  "Fun/Commands/untitled-page-5",
+                  "Fun/Commands/untitled-page-6",
+                  "Fun/Commands/untitled-page-7",
+                  "Fun/Commands/untitled-page-8",
+                  "Fun/Commands/untitled-page-9",
+                  "Fun/Commands/untitled-page"
+                ]
+              }
+            ]
           }
         ]
       }
