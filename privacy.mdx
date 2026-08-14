@@ -11,9 +11,10 @@ By inviting or using Wolly, you agree to how we handle data as described below.
 
 To function properly, Wolly collects and stores minimal necessary data:
 
-- **Server & Channel IDs:** To save configuration settings (e.g., bump channels, report channels, ticket channels) and know where to send reminders or logs.
+- **Server & Channel IDs:** To save configuration settings (e.g., bump channels, report channels, ticket channels, and invite log channels) and know where to send reminders or logs.
 - **Role IDs:** To know which roles to ping or assign (e.g., bump roles, staff roles).
-- **User IDs & System Records:** We store User IDs connected to moderation actions (warnings, mutes, kicks, bans) to maintain case history, as well as for ticket logging and invite tracking.
+- **User IDs & System Records:** We store User IDs connected to moderation actions (warnings, mutes, kicks, bans) to maintain case history, as well as for ticket logging.
+- **Invite Tracking Data:** To provide invite statistics and leaderboards, we store User IDs along with invite metrics (joins, leaves, bonus invites) and relationship records (who invited which member and using which invite code).
 - **Command Usage:** We may temporarily log command errors to diagnose and fix bugs.
 
 ## 2. What We Don't Collect
@@ -23,8 +24,8 @@ To function properly, Wolly collects and stores minimal necessary data:
 
 ## 3. Data Storage & Security
 
-- All configuration data, moderation cases, and ticket logs are stored securely in our database.
-- If you want to remove your server's bumper data completely, you can run the `/bumpping deletealldata` command (Server Owner only), or kick the bot to halt all active features.
+- All configuration data, moderation cases, ticket logs, and invite tracking statistics are stored securely in our database.
+- If you want to remove your server's configuration data (including invite logs and bump settings), you can run administrative management commands, or kick the bot from your server to halt all active features.
 
 ## 4. Third-Party Services
 
@@ -36,3 +37,5 @@ If you want to manually request full data deletion or have questions about priva
 
 - **Discord:** `thomakosxd`
 - **Support Server:** [Join our Discord](https://discord.gg/39GunFy577)
+
+August 14 2026
