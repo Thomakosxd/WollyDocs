@@ -1,0 +1,24 @@
+---
+title: "Basic Setup"
+description: "Get started with the Wolly Bumper in seconds."
+icon: "paperclip"
+mode: "default"
+---
+
+Wolly is designed to be straightforward and quick to set up. If you just want the essentials, you can get everything running without spending time on complex configurations.
+
+## Out of the box experience <Icon name="rocket" />
+
+The moment you invite Wolly to your server, the Bumper module is ready to track Disboard activity automatically!
+
+<Tip>
+  No complex setup required to get started! Wolly handles detection out of the box.
+</Tip>
+
+### How it works
+
+1. **Member Initiates Bump** A member types `/bump` using the Disboard bot.
+2. **Wolly Detects Activity** Wolly detects the successful bump confirmation in chat.
+3. **Timer Started** Wolly starts a 2-hour timer in the background and posts a confirmation message mentioning when the next bump is available.
+4. **Primary Reminder Sent** When the 2 hours are up, Wolly sends a reminder embed directly to your configured reminder channel, mentioning your designated ping role (or the last bumper).
+5. **Second Reminder Triggered** If 30 minutes pass after the server becomes ready and no one bumps, Wolly triggers a **Second Reminder** in the channel to keep your growth on track.
