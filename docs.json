@@ -67,32 +67,7 @@
         }
       ]
     },
-    "versions": [
-      {
-        "version": "BETA-0.1.10",
-        "default": true,
-        "groups": [
-          {
-            "group": "Getting Started",
-            "pages": [
-              "index",
-              "privacy",
-              "tos"
-            ]
-          },
-          {
-            "group": "Bump Ping",
-            "pages": [
-              "Bump Ping/basic-setup",
-              "Bump Ping/channels-roles",
-              "Bump Ping/info-manage",
-              "Bump Ping/live-status",
-              "Bump Ping/untitled-page"
-            ]
-          }
-        ]
-      }
-    ]
+    "groups": []
   },
   "logo": {
     "light": "/logo/light.svg",
