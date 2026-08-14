@@ -1,0 +1,72 @@
+---
+title: "Channels & Roles"
+description: "Set up dedicated channels, ping roles, and custom reminder embeds."
+sidebar:
+  order: 2
+---
+
+import { Card, CardGroup, Callout, Tabs, TabItem, Badge } from '@astrojs/starlight/components';
+
+# 📃 Channels & Roles
+
+Customize where Wolly posts bump reminders, who gets pinged when the cooldown expires, and how the reminder embed looks to fit your server's style[cite: 2].
+
+---
+
+## 1. Setting up a Bump Channel
+
+You can choose exactly where Wolly posts the reminder embed when a bump becomes available[cite: 2].
+
+<Tabs>
+  <TabItem label="⚡ Automatic Setup" icon="rocket">
+    Run `/bumpping createchannel`[cite: 2]. Wolly will automatically create a dedicated `#bump-here` text channel and set it as your reminder destination[cite: 2].
+  </TabItem>
+  <TabItem label="🛠️ Manual Setup" icon="setting">
+    If you already have an existing channel (e.g., `#bot-commands`), run `/bumpping setchannel #channel` to link it[cite: 2].
+  </TabItem>
+</Tabs>
+
+---
+
+## 2. Setting up a Ping Role
+
+Notify a specific group of members whenever it is time to bump again[cite: 2].
+
+<Tabs>
+  <TabItem label="⚡ Automatic Setup" icon="rocket">
+    Run `/bumpping createrole`[cite: 2]. Wolly will create a mentionable `👊Bump ME` role with a cyan color and assign it to the system[cite: 2].
+  </TabItem>
+  <TabItem label="🛠️ Manual Setup" icon="setting">
+    If you already have a role for bumpers, run `/bumpping setpingrole @role` to set it[cite: 2].
+  </TabItem>
+</Tabs>
+
+<Callout type="note" title="Default Fallback">
+  If no role is configured, Wolly will mention the user who performed the last bump instead[cite: 2].
+</Callout>
+
+---
+
+## 3. Customizing Embed Messages <Badge text="💎 Premium" variant="caution" />
+
+Make the reminder alerts match your server's vibe by customizing the embed text and timestamps[cite: 2].
+
+<CardGroup cols={2}>
+  <Card title="Change Title" icon="pencil">
+    Run `/bumpping setembedtitle title:<your_title>` to set a custom header[cite: 2].
+  </Card>
+  <Card title="Change Description" icon="document">
+    Run `/bumpping setembeddesc description:<your_text>`[cite: 2].
+  </Card>
+  <Card title="Toggle Timestamps" icon="clock">
+    Run `/bumpping timestamps status:<ON/OFF>` to display or hide exact time details inside embeds[cite: 2].
+  </Card>
+</CardGroup>
+
+<Callout type="tip" title="Pro Tip">
+  Use the `{time}` variable inside your description text, and Wolly will automatically swap it with the actual cooldown duration[cite: 2].
+</Callout>
+
+```
+
+---
