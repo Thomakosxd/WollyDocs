@@ -1,47 +1,28 @@
 ---
 title: "Managing Your Setup"
-description: "Double-check your current configurations or make changes down the road."
+description: "Once you have set up your channels, roles, and status, you can easily double-check your current configurations or make changes down the road\[cite: 3\]."
 sidebar:
   order: 3
----
-
-import { Card, Callout } from '@astrojs/starlight/components';
-
-# 🛠️ Managing Your Setup
-
-Once you have set up your channels, roles, and status, you can easily double-check your current configurations or make changes down the road[cite: 3].
-
+icon: "hammer"
 ---
 
 ## Check Your Settings
 
-Not sure what channel is set for reminders or what settings are active[cite: 3]? Simply run:
+Not sure what channel is set for reminders or what settings are active? Simply run:
 
 ```text
 /bumpping info
-
 ```
 
 This command displays a clean panel showing:
 
-* **Reminder Channel:** The text channel assigned for bump alerts.
-
-
-* **Ping Role:** The role currently set to be mentioned.
-
-
-* **Status Channel & Prefix:** The voice status channel and its display text.
-
-
-* **Second Reminder:** Status (`ON`/`OFF`) and the custom delay timer.
-
-
-* **Embed Timestamps:** Status (`ON`/`OFF`) for exact time indicators.
-
-
-* **Embed Details:** Your saved custom embed title and description.
-
-
+- **Reminder Channel:** The text channel assigned for bump alerts.
+- **Ping Role:** The role currently set to be mentioned.
+- **Status Channel & Prefix:** The voice status channel and its display text.
+- **Second Reminder:** Status (`ON`/`OFF`) and the custom delay timer.
+- **Embed Timestamps:** Status (`ON`/`OFF`) for exact time indicators.
+- **Embed Details:** Your saved custom embed title and description.
+- **Available Commands:** All the available commands for bumpping.
 
 ---
 
@@ -51,13 +32,8 @@ If you ever want to completely reset the Bumper module for your server, the **Se
 
 ```text
 /bumpping deletealldata
-
 ```
 
-> **Warning:** This command permanently wipes all stored bump configurations (channels, roles, status settings, and custom embeds) for your server. To prevent accidental data loss, Wolly requires a 3-step confirmation before deleting anything.
-> 
-> 
-
-```
-
----
+<Warning>
+  This command permanently wipes all stored bump configurations (channels, roles, status settings, and custom embeds) for your server. To prevent accidental data loss, Wolly requires a 3-step confirmation before deleting anything.
+</Warning>
