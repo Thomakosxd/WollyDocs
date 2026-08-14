@@ -69,6 +69,14 @@
     },
     "groups": [
       {
+        "group": "Welcome to Wolly",
+        "pages": [
+          "Welcome to Wolly/index",
+          "Welcome to Wolly/privacy",
+          "Welcome to Wolly/tos"
+        ]
+      },
+      {
         "group": "Bump Ping",
         "pages": [
           "Bump Ping/basic-setup",
@@ -76,6 +84,14 @@
           "Bump Ping/managing-your-setup",
           "Bump Ping/second-reminder-feature",
           "Bump Ping/live-countdown-channel"
+        ]
+      },
+      {
+        "group": "Invite Tracking",
+        "pages": [
+          "Invite Tracking/overview",
+          "Invite Tracking/commands",
+          "Invite Tracking/premium-logs"
         ]
       }
     ]
