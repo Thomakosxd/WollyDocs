@@ -89,47 +89,6 @@
               "Bump Ping/live-status",
               "Bump Ping/untitled-page"
             ]
-          },
-          {
-            "group": "Invite Tracking",
-            "pages": [
-              "Invite Tracking/admin-management",
-              "Invite Tracking/overview",
-              "Invite Tracking/user-commands"
-            ]
-          },
-          {
-            "group": "Moderation",
-            "pages": [
-              "Moderation/report-history"
-            ]
-          },
-          {
-            "group": "Fun",
-            "pages": [
-              "Fun/untitled-page",
-              {
-                "group": "Commands",
-                "pages": [
-                  "Fun/Commands/untitled-page-10",
-                  "Fun/Commands/untitled-page-2",
-                  "Fun/Commands/untitled-page-3",
-                  "Fun/Commands/untitled-page-4",
-                  "Fun/Commands/untitled-page-5",
-                  "Fun/Commands/untitled-page-6",
-                  "Fun/Commands/untitled-page-7",
-                  "Fun/Commands/untitled-page-8",
-                  "Fun/Commands/untitled-page-9",
-                  "Fun/Commands/untitled-page"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "Counter Game",
-            "pages": [
-              "Counter Game/ffaf"
-            ]
           }
         ]
       }
