@@ -1,0 +1,50 @@
+---
+title: 'Premium Invite Logs'
+description: 'Automatically log member joins and inviter stats to a dedicated channel.'
+icon: 'gem'
+---
+
+## Overview
+
+**Invite Logs** is a Premium feature that posts an automatic notification in a designated text channel whenever a new member joins using a tracked invite link[cite: 2].
+
+<Frame>
+  <p>📥 **New Member Joined**</p>
+  <p>User A invited User B!</p>
+  <p>📊 **Inviter Stats:** User A has **5** invites *(6 joins, 1 left, 0 bonus)*[cite: 2].</p>
+</Frame>
+
+---
+
+## Configuration Commands
+
+<Note>
+  These commands require **Administrator** permissions and an **Active Premium Subscription** for the guild[cite: 2].
+</Note>
+
+### Set Log Channel
+To enable invite logging, select the text channel where notifications should be sent:
+
+```bash
+/invitetracking setchannel #channel-name
+```[cite: 2]
+
+### Remove Log Channel
+To disable automatic invite logging:
+
+```bash
+/invitetracking removechannel
+```[cite: 2]
+
+---
+
+## Troubleshooting
+
+<AccordionGroup>
+  <Accordion title="Premium Required Error">
+    If you receive a `🔒 Premium Required` error, make sure your server's premium subscription is active[cite: 2]. Contact support if you believe this is an error.
+  </Accordion>
+  <Accordion title="Logs are not sending">
+    Ensure that the bot has the **View Channel** and **Send Messages** permissions in the channel selected with `/invitetracking setchannel`[cite: 2].
+  </Accordion>
+</AccordionGroup>

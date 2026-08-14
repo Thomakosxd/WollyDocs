@@ -1,0 +1,45 @@
+---
+title: 'Overview'
+description: 'Track member invites, leaderboards, and manage bonus invites in your Discord server.'
+icon: 'envelope-open-text'
+---
+
+## Introduction
+
+The **Invite Tracking** system allows you to automatically track who invited new members to your server[cite: 2]. It calculates active joins, leaves, and bonus invites to provide real-time server growth statistics[cite: 2].
+
+<CardGroup cols={2}>
+  <Card title="User Statistics" icon="chart-simple">
+    Check individual invite stats including joins, leaves, and bonus points[cite: 2].
+  </Card>
+  <Card title="Server Leaderboards" icon="trophy">
+    Display interactive top-inviter leaderboards for your community[cite: 2].
+  </Card>
+  <Card title="Bonus Invite Control" icon="gift">
+    Administrators can add, remove, or set custom bonus invites for members[cite: 2].
+  </Card>
+  <Card title="Real-Time Logs" icon="gem">
+    Premium servers can send automated join logs to a designated channel[cite: 2].
+  </Card>
+</CardGroup>
+
+---
+
+## Quick Start Guide
+
+<Steps>
+  <Step title="Check your stats">
+    Use `/invitetracking user` in any channel to view your current invites[cite: 2].
+  </Step>
+  <Step title="View the Leaderboard">
+    Type `/invitetracking leaderboard` to see who has brought the most members to the server[cite: 2].
+  </Step>
+  <Step title="Configure Logs (Optional)">
+    If your server has **Premium**, use `/invitetracking setchannel` to enable join log notifications[cite: 2].
+  </Step>
+</Steps>
+
+<Note>
+  The system calculates **Net Invites** using the formula:  
+  `Net Invites = (Joins + Bonus) - Leaves`[cite: 2]
+</Note>
