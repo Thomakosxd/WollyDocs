@@ -67,7 +67,18 @@
         }
       ]
     },
-    "groups": []
+    "groups": [
+      {
+        "group": "Bump Ping",
+        "pages": [
+          "Bump Ping/channels-and-roles",
+          "Bump Ping/live-countdown-channel",
+          "Bump Ping/managing-your-setup",
+          "Bump Ping/second-reminder-feature",
+          "Bump Ping/untitled-page"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
