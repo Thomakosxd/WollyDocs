@@ -84,7 +84,8 @@
           "Bump Ping/managing-your-setup",
           "Bump Ping/second-reminder-feature",
           "Bump Ping/live-countdown-channel",
-          "Bump Ping/untitled-page"
+          "Bump Ping/untitled-page",
+          "untitled-page"
         ]
       },
       {
@@ -92,7 +93,8 @@
         "pages": [
           "Invite Tracking/overview",
           "Invite Tracking/commands",
-          "Invite Tracking/premium-logs"
+          "Invite Tracking/premium-logs",
+          "untitled-page-2"
         ]
       }
     ]
