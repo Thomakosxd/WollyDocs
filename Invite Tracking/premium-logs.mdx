@@ -12,7 +12,15 @@ icon: "paper-plane"
 
 **Invite Logs** is a Premium feature that posts an automatic notification in a designated text channel whenever a new member joins using a tracked invite link.
 
-![Image](/images/image.png "Image")
+<CardGroup>
+  <Card title="User Logs" icon="user">
+    The bot sends an embed that shows who invited whom along with the inviter's statistics.
+  </Card>
+
+  <Card title="Bot Logs" icon="robot">
+    The bot will send an embed showing which bot invited which user, along with a note below informing you that it is a bot and displaying the invite code used for its join.
+  </Card>
+</CardGroup>
 
 ---
 
@@ -37,17 +45,3 @@ To disable automatic invite logging:
 ```bash
 /invitetracking removechannel
 ```
-
----
-
-## Troubleshooting
-
-<AccordionGroup>
-  <Accordion title="Premium Required Error">
-    If you receive a `🔒 Premium Required` error, make sure your server's premium subscription is active. Contact support if you believe this is an error.
-  </Accordion>
-
-  <Accordion title="Logs are not sending">
-    Ensure that the bot has the **View Channel** and **Send Messages** permissions in the channel selected with `/invitetracking setchannel`.
-  </Accordion>
-</AccordionGroup>
